@@ -1,0 +1,37 @@
+[project]
+name = "wl-mainimagedesign"
+description = "Professional e-commerce main image prompt generator for motorcycle equipment (helmets, riding gear, protective gear) with 9 design styles and 2 canvas ratios. (Description by CC)"
+version = "1.0.0"
+license = {file = "LICENSE"} 
+# classifiers = [
+#     # For OS-independent nodes (works on all operating systems)
+#     "Operating System :: OS Independent",
+#
+#     # OR for OS-specific nodes, specify the supported systems:
+#     "Operating System :: Microsoft :: Windows",  # Windows specific
+#     "Operating System :: POSIX :: Linux",  # Linux specific
+#     "Operating System :: MacOS",  # macOS specific
+#
+#     # GPU Accelerator support. Pick the ones that are supported by your extension.
+#     "Environment :: GPU :: NVIDIA CUDA",    # NVIDIA CUDA support
+#     "Environment :: GPU :: AMD ROCm",       # AMD ROCm support
+#     "Environment :: GPU :: Intel Arc",      # Intel Arc support
+#     "Environment :: NPU :: Huawei Ascend",  # Huawei Ascend support
+#     "Environment :: GPU :: Apple Metal",    # Apple Metal support
+# ]
+
+dependencies = ["﻿# No external dependencies required", "# The plugin uses Python standard library (urllib, json, ssl, base64, io)", "# PIL and numpy are already available in ComfyUI environment"]
+
+[project.urls]
+Repository = "https://github.com/senhaicc/Comfyui-WL-MainImageDesign"
+#  Used by Comfy Registry https://registry.comfy.org
+Documentation = "https://github.com/senhaicc/Comfyui-WL-MainImageDesign/wiki"
+"Bug Tracker" = "https://github.com/senhaicc/Comfyui-WL-MainImageDesign/issues"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui-WL-MainImageDesign"
+Icon = ""
+includes = [] 
+# "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
+
